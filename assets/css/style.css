@@ -1,0 +1,81 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    font-family: 'Cabin' ;
+}
+    @media only screen and (max-width: 576px) {
+        #h1{font-size: 12px;
+            text-align: center;
+             margin-top:0}
+    }
+
+h2{
+    font-family: 'Cabin' ;
+    font-size: 26px;
+}
+    @media only screen and (max-width: 576px) {
+        #h2{font-size: 16px;
+        text-align: center;}
+        }
+
+h3{
+    font-family: 'Cabin' ;
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Cabin' ;
+    font-size: 19px; 
+}
+
+h6{
+    font-family: 'Cabin' ;
+    font-size: 18px; 
+}
+
+p{
+    font-family: 'Cabin' ;
+    font-size: 16px;
+}
+
+li{
+    font-family: 'Cabin' ;
+}
+
+.sub {
+    text-decoration: underline; 
+    size: 1px; /* no le puedo dar los pixeles que quiero*/
+}
+
+.btn{
+    font-family: 'Cabin' ;
+}
+
+#contacto{
+    height: 320%;
+}
+
+.red{
+    color:#ff0000
+}
+
+.carousel{
+    width: 150%;
+}
+
+.carousel-indicators{
+    top: 150px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+/* carousel debe desaparecer en version xs sm*/
+@media (max-width: 768px) {
+    #blogcarousel{display: none; }
+  }
